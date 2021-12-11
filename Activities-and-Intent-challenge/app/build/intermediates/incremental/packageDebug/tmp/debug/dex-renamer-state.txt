@@ -1,0 +1,4 @@
+#Sat Dec 11 17:33:23 NPT 2021
+base.0=E\:\\Users\\baris\\WorkingDMA\\WorkingDMA\\Activities-and-Intent-challenge\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

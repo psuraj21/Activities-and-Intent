@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_say_hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sayHello"
+            android:text="@string/say_hello_btn" />
+
+        <TextView
+            android:id="@+id/show_count"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#68B6F4"
+            android:gravity="center"
+            android:textColor="@color/teal_700"
+            android:text="@string/count_initial_value"
+            android:textSize="160sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="countUp"
+            android:text="@string/button_label_count" />
+    </LinearLayout>
+
+</LinearLayout>
